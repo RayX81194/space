@@ -20,7 +20,7 @@
     text-align: center;
     height: 100vh;
     gap: 10px;
-    background: url("/assets/bg.png") no-repeat fixed;
+    background: url("./assets/bg.png") no-repeat fixed;
   }
   
   .header h1 {
@@ -49,7 +49,7 @@
   }
   
   .solar-system-overview {
-    background: url("/assets/bg2.jpg") no-repeat fixed center;
+    background: url("./assets/bg2.jpg") no-repeat fixed center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,7 +74,7 @@
   
   .planets {
     padding-top: 4rem;   
-    background: url("/assets/bg.png") no-repeat fixed center;
+    background: url("./assets/bg.png") no-repeat fixed center;
   }
   
   .planets h2 {
@@ -158,7 +158,7 @@
   .moons {
     height: 100vh;
     padding-top: 4rem;   
-    background: url("/assets/bg3.jpg") no-repeat fixed center;
+    background: url("./assets/bg3.jpg") no-repeat fixed center;
   }
   
   .moons h2 {
@@ -170,7 +170,7 @@
   }
   .solar-system-objects {
     padding-top: 4rem;   
-    background: url("/assets/bg.png") no-repeat fixed center;
+    background: url("./assets/bg.png") no-repeat fixed center;
   }
   
   .solar-system-objects h2 {
@@ -184,7 +184,7 @@
   .footer{ 
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background: url("/assets/bg.png") no-repeat fixed center;
+    background: url("./assets/bg.png") no-repeat fixed center;
     display: flex;
     flex-direction: column;
     justify-content: center;
