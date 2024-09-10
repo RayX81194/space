@@ -1,0 +1,250 @@
+* {
+    font-family: "Rethink Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  }
+  body{
+    background-color: black;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    gap: 10px;
+    background: url("/assets/bg.png") no-repeat fixed;
+  }
+  
+  .header h1 {
+    color: yellow;
+    max-width: 800px;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .header p {
+    max-width: 450px;
+  }
+  
+  .header button {
+    background-color: black;
+    border: 1px solid white;
+    padding: 20px;
+    margin-top: 10px;
+    transition: 0.2s ease-in;
+  }
+  
+  .header button:hover {
+    color: black;
+    background-color: white;
+  }
+  
+  .solar-system-overview {
+    background: url("/assets/bg2.jpg") no-repeat fixed center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    gap: 5px;
+  }
+  
+  .solar-system-overview h2 {
+    color: yellow;
+    max-width: 400px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  
+  .solar-system-overview p {
+    max-width: 600px;
+    font-size: 1.2rem;
+  }
+  
+  .planets {
+    padding-top: 4rem;   
+    background: url("/assets/bg.png") no-repeat fixed center;
+  }
+  
+  .planets h2 {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    color: yellow;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .line{
+    margin-top: 1.4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: yellow;
+  }
+  
+  .planet {
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .planet h3 {
+    font-family: "Monda", sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: yellow;
+  }
+  
+  .planet p {
+    max-width: 600px;
+    font-size: 1.4rem;
+    color: rgb(228, 224, 224);
+  }
+  .moon {
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .moon h3 {
+    font-family: "Monda", sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: yellow;
+  }
+  
+  .moon p {
+    max-width: 600px;
+    font-size: 1.4rem;
+    color: rgb(228, 224, 224);
+  }
+  
+  .planet h4 {
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+  }
+  
+  ul {
+    margin-top: 10px;
+  }
+  
+  ul li {
+    list-style: none;
+    font-size: 1.1rem;
+    color: whitesmoke;
+  }
+  
+  .planet-img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .moons {
+    height: 100vh;
+    padding-top: 4rem;   
+    background: url("/assets/bg3.jpg") no-repeat fixed center;
+  }
+  
+  .moons h2 {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    color: yellow;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  .solar-system-objects {
+    padding-top: 4rem;   
+    background: url("/assets/bg.png") no-repeat fixed center;
+  }
+  
+  .solar-system-objects h2 {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    color: yellow;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .footer{ 
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: url("/assets/bg.png") no-repeat fixed center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  #back-to-top.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  #back-to-top:hover {
+    background-color: #555;
+  }
+  
+  .objects {
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .objects h3 {
+    font-family: "Monda", sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: yellow;
+  }
+  
+  .objects p {
+    max-width: 600px;
+    font-size: 1.4rem;
+    color: rgb(228, 224, 224);
+  }
+  
+
+  .small-title{
+    font-size: 2rem;
+    color: yellow;
+  }
