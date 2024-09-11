@@ -165,6 +165,7 @@
   .solar-system-objects {
     padding-top: 2rem;   
     background: url("./assets/bg.png") no-repeat fixed center;
+    padding-bottom: 2rem;
   }
   
   .solar-system-objects h2 {
@@ -177,7 +178,7 @@
 
   .footer{ 
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     background: url("./assets/bg.png") no-repeat fixed center;
     display: flex;
     flex-direction: column;
