@@ -64,7 +64,6 @@
     max-width: 400px;
     font-size: 3rem;
     text-transform: uppercase;
-    font-weight: 800;
   }
   
   .solar-system-overview p {
@@ -135,11 +134,6 @@
     color: rgb(228, 224, 224);
   }
   
-  .planet h4 {
-    transform-origin: 0 0;
-    transform: rotate(90deg);
-  }
-  
   ul {
     margin-top: 10px;
   }
@@ -169,7 +163,7 @@
     text-transform: uppercase;
   }
   .solar-system-objects {
-    padding-top: 4rem;   
+    padding-top: 2rem;   
     background: url("./assets/bg.png") no-repeat fixed center;
   }
   
@@ -189,6 +183,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
 
   }
 
@@ -248,3 +243,108 @@
     font-size: 2rem;
     color: yellow;
   }
+  
+  @media (max-width: 768px) {
+    .header h1 {
+      max-width: 400px;
+      font-size: 2.5rem;
+    }
+    .solar-system-overview h2 {
+      font-size: 2rem;
+
+    }
+    .solar-system-overview p {
+      font-size: 1rem;
+      max-width: 350px;
+    }
+    .line{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: yellow;
+  }
+  .planet {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .planets h2 {
+    padding-top: 2rem;
+    padding-left: 0.9rem;
+    font-size: 1.2rem;
+  }
+
+  .moons h2 {
+    padding-top: 2rem;
+    padding-left: 0.9rem;
+    font-size: 1.2rem;
+  }
+  .solar-system-objects h2 {
+    padding-top: 2rem;
+    padding-left: 0.9rem;
+    font-size: 1.2rem;
+  }
+
+  .planet-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .planet {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .planet h3{
+    font-size: 2.8rem;
+  }
+  .planet p{
+    font-size: 1rem;
+  }
+  .moon h3{
+    font-size: 2.8rem;
+  }
+  .moon p{
+    font-size: 1rem;
+  }
+  .objects h3{
+    font-size: 2.8rem;
+  }
+  .objects p{
+    font-size: 1rem;
+  }
+
+  .small-title{
+    font-size: 0.9rem;
+  }
+
+  ul li {
+    font-size: 0.9rem;
+  }
+
+  .moon {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  
+  .objects {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+}
